@@ -5,6 +5,7 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "cwh个人博客",
   description: "一个普通人，喜欢思考编程",
+  base:'/vuepressv2/',
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/jojohead.png",
@@ -19,6 +20,7 @@ export default defineUserConfig({
     ],
     // series 为原 sidebar
     series: {
+
       "/docs/theme-reco/": [
         {
           text: "module one",
