@@ -20,6 +20,19 @@ export default defineUserConfig({
     ],
     // series 为原 sidebar
     series: {
+      "/blogs/front/vue2":[
+        {
+          text: "vue2",
+          children: [
+            {text:'你好',link:'vuex'},
+            {text:'Vue3',link:'b'},
+          ],
+        }
+        // {
+        //   text: "vue3",
+        //   children: ["c", "d"],
+        // },  
+      ],
 
       "/docs/theme-reco/": [
         {
@@ -37,8 +50,9 @@ export default defineUserConfig({
       {
         text: "前端",
         children: [
-          { text: "后端", link: "/docs/theme-reco/theme" },
-          { text: "前端", link: "/blogs/后端/2023" },
+          { text: "Vue2", link: "/blogs/front/vue2/vuex.md" },
+          { text: "Vue3", link: "/blogs/front/vue3/vuex.md" },
+          { text: "ElementUI", link: "/blogs/front/vue3/vuex.md" },
         ],
       },
       {
@@ -61,16 +75,13 @@ export default defineUserConfig({
       {
         text: "web3",
         children: [
-          { text: "后端", link: "/docs/theme-reco/theme" },
-          { text: "前端", link: "/blogs/后端/2023" },
+          { text: "区块链", link: "/docs/theme-reco/theme" },
+          { text: "Solidity", link: "/blogs/后端/2023" },
+          { text: "空投", link: "/blogs/后端/2023" },
         ],
       },
       {
-        text: "算法",
-        children: [
-          { text: "后端", link: "/docs/theme-reco/theme" },
-          { text: "前端", link: "/blogs/后端/2023" },
-        ],
+        text: "算法", link: "/tags/tag1/1/"
       },
       {
         text: "面经",
@@ -98,7 +109,7 @@ export default defineUserConfig({
         text: "生活",
         children: [
           { text: "吃吃吃", link: "/docs/theme-reco/theme" },
-          { text: "宅家看番捏", link: "/blogs/other/guide" },
+          { text: "宅家看番捏", link: "/blogs/anime/index.md" },
           { text: "抽象人生", link: "/blogs/other/guide" },
         ],
       },
