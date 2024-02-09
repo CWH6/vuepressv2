@@ -56,7 +56,7 @@ categories:
             </a>
         </div>
         <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px;">
-            <img src="https://inews.gtimg.com/newsapp_bt/0/14308312829/641" alt="Avatar 2"
+            <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2Fdad31f78-51f7-4b1c-a518-674ea4b7848b%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1710089689&t=b3ee2e1629082e9f0188503bc0967334" alt="Avatar 2"
                 style="width: 100%;">
             <a href="https://www.bilibili.com/bangumi/media/md28230742"
                 style="display: block; text-align: center; text-decoration: none;">
