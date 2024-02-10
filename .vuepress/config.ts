@@ -108,9 +108,9 @@ export default defineUserConfig({
       {
         text: "生活",
         children: [
-          { text: "吃吃吃", link: "/docs/theme-reco/theme" },
+          { text: "吃吃吃", link: "/blogs/food/index.md" },
           { text: "宅家看番捏", link: "/blogs/anime/index.md" },
-          { text: "抽象人生", link: "/blogs/other/guide" },
+          { text: "抽象人生", link: "/blogs/life/index.md" },
         ],
       },
       {
