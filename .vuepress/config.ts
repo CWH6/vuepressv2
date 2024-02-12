@@ -119,7 +119,7 @@ export default defineUserConfig({
       {
         text: "羁绊",
         children: [
-          { text: "介绍捏", link: "/docs/theme-reco/theme" },
+          { text: "盆友嘞", link: "/blogs/friend/index.md" },
           { text: "人生观", link: "/blogs/other/guide" },
         ],
       },
