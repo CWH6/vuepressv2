@@ -138,10 +138,10 @@ categories:
         </div>
          <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px; text-align: center;">
             <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin: 0 auto;">
-                <img src="https://lining98.github.io/docs/img/logo.png" alt=""
+                <img src="https://shaitao1026.gitee.io/images/head/head.jpg" alt=""
                     style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <a href="https://lining98.github.io/docs/"
+            <a href="https://shaitao1026.gitee.io/"
                 style="display: block; text-align: center; text-decoration: none;">
                 <p style="margin-top: 5px; font-weight: bold; white-space: nowrap;">柠檬小窝</p>
             </a>
@@ -149,3 +149,18 @@ categories:
     </div>
 </div>
 
+<div class="grid-container" style="display: flex; flex-wrap: wrap; justify-content: space-between;background-color:skybule">
+    <!-- 第一行 -->
+    <div class="grid-row" style="display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between;">
+         <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px; text-align: center;">
+            <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin: 0 auto;">
+                <img src="https://img0.baidu.com/it/u=1054822862,4207380510&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=800" alt=""
+                    style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <a href="https://fomalhaut1998.github.io/"
+                style="display: block; text-align: center; text-decoration: none;">
+                <p style="margin-top: 5px; font-weight: bold; white-space: nowrap;">Fomalhaut</p>
+            </a>
+        </div>
+    </div>
+</div>

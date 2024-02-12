@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-438813fa","path":"/blogs/friend/","title":"盆友","lang":"en-US","frontmatter":{"title":"盆友","date":"2024/02/09","categories":["菜单"]},"headers":[{"level":2,"title":"羁绊图","slug":"羁绊图","link":"#羁绊图","children":[]}],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/friend/index.md"}');export{e as data};
