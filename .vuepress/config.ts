@@ -22,27 +22,59 @@ export default defineUserConfig({
     series: {
       "/blogs/front/vue2":[
         {
-          text: "vue2",
+          text: "基础语法",
           children: [
-            {text:'你好',link:'vuex'},
-            {text:'Vue3',link:'b'},
+            {text:'响应式数据绑定',link:'vuex'},
+            {text:'指令系统',link:'b'},
+            {text:'生命周期',link:'lifeCycle'},
           ],
-        }
-        // {
-        //   text: "vue3",
-        //   children: ["c", "d"],
-        // },  
+        },
+        {
+          text: "进阶版本",
+          children: ["home", "theme"],
+        },
+        {
+          text: "项目实践",
+          children: ["home", "theme"],
+        },
       ],
-
+      "/blogs/front/vue3":[
+        {
+          text: "基础语法",
+          children: [
+            {text:'响应式数据绑定',link:'vuex'},
+            {text:'指令系统',link:'b'},
+            {text:'生命周期',link:'lifeCycle'},
+          ],
+        },
+        {
+          text: "进阶版本",
+          children: ["home", "theme"],
+        },
+        {
+          text: "项目实践",
+          children: ["home", "theme"],
+        },
+      ],
       "/docs/theme-reco/": [
         {
-          text: "module one",
+          text: "进阶",
           children: ["home", "theme"],
         },
         {
           text: "module two",
           children: ["api", "plugin"],
         },
+      ],
+      "/blogs/self_todo_list":[
+        {
+          text: "年份",
+          children: [
+            {text:'2023',link:'2023'},
+            {text:'2024',link:'2024'},
+            {text:'2025',link:'2025'},
+          ],
+        }
       ],
     },
     navbar: [
@@ -114,7 +146,11 @@ export default defineUserConfig({
         ],
       },
       {
-        text: "个人", link: "/blogs/self/api.md"
+        text: "个人",
+        children: [
+          { text: "个人", link: "/blogs/self/api.md" },
+          { text: "清单", link: "/blogs/self_todo_list/2023.md" },
+        ]
       },
       {
         text: "羁绊",

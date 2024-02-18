@@ -23,7 +23,7 @@ categories:
         <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px;">
             <img src="https://pic.rmb.bdstatic.com/bjh/news/ba372808ef2c4de13982860c0d0b544c.jpeg" alt="Avatar 2"
                 style="width: 100%;">
-            <a href="https://www.bilibili.com/bangumi/media/md4349"
+            <a href="https://www.bilibili.com/bangumi/media/md4340"
                 style="display: block; text-align: center; text-decoration: none;">
                 <p style="margin-top: 5px; font-weight: bold; white-space: nowrap;">中二病也要谈恋爱！恋</p>
             </a>
@@ -80,9 +80,77 @@ categories:
             </a>
         </div>
     </div>
+    <!-- 第三行 -->
+    <div class="grid-row" style="display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between;">
+        <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px;">
+            <img src="https://img2.baidu.com/it/u=845589285,2170675033&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500" alt=""
+                style="width: 100%;">
+            <a href="https://www.bilibili.com/bangumi/media/md5523"
+                style="display: block; text-align: center; text-decoration: none;">
+                <p style="margin-top: 5px; font-weight: bold; white-space: nowrap;">3月的狮子</p>
+            </a>
+        </div>
+        <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px;">
+            <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201801%2F29%2F20180129143422_zMCuv.thumb.700_0.png&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1710823509&t=cff207924add9532a4917d8dd8b25ccf" alt=""
+                style="width: 100%;">
+            <a href="https://www.bilibili.com/bangumi/media/md6434"
+                style="display: block; text-align: center; text-decoration: none;">
+                <p style="margin-top: 5px; font-weight: bold; white-space: nowrap;">宝石之国</p>
+            </a>
+        </div>
+        <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px;">
+            <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F6961f848-9b76-4c86-a657-26841c7eef8d%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1710826830&t=b10f5073a8f309e7ca26a77b3ea9b33e" alt=""
+                style="width: 100%;">
+            <a href="https://www.bilibili.com/bangumi/media/md21194555"
+                style="display: block; text-align: center; text-decoration: none;">
+                <p style="margin-top: 5px; font-weight: bold; white-space: nowrap;">我独自升级</p>
+            </a>
+        </div>
+        <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px;">
+            <img src="https://img2.woyaogexing.com/2020/11/07/e0d0336c409a4de0b530bd1f9209648e%21400x400.jpeg" alt=""
+                style="width: 100%;">
+            <a href="https://www.bilibili.com/bangumi/media/md140552"
+                style="display: block; text-align: center; text-decoration: none;">
+                <p style="margin-top: 5px; font-weight: bold; white-space: nowrap;">JOJO的奇妙冒险 不灭钻石</p>
+            </a>
+        </div>
+    </div>
+    <!-- 第四行 -->
+    <div class="grid-row" style="display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between;">
+        <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px;">
+            <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fblog%2F202010%2F30%2F20201030141829_f6c7b.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1710826377&t=79fc41ce69c1fbb2793f06677151d7da" alt=""
+                style="width: 100%;">
+            <a href="https://www.bilibili.com/bangumi/media/md28229885"
+                style="display: block; text-align: center; text-decoration: none;">
+                <p style="margin-top: 5px; font-weight: bold; white-space: nowrap;">无能力者娜娜</p>
+            </a>
+        </div>
+        <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px;">
+            <img src="https://img0.baidu.com/it/u=3216464758,1139514905&fm=253&fmt=auto&app=138&f=JPEG?w=499&h=500" alt=""
+                style="width: 100%;">
+            <a href="https://www.bilibili.com/bangumi/media/md6339"
+                style="display: block; text-align: center; text-decoration: none;">
+                <p style="margin-top: 5px; font-weight: bold; white-space: nowrap;">欢迎来到实力至上主义的教室</p>
+            </a>
+        </div>
+        <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px;">
+            <img src="https://img0.baidu.com/it/u=3659565588,16780367&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=820" alt=""
+                style="width: 100%;">
+            <a href="https://www.bilibili.com/bangumi/media/md20140467"
+                style="display: block; text-align: center; text-decoration: none;">
+                <p style="margin-top: 5px; font-weight: bold; white-space: nowrap;">物理魔法使-马修</p>
+            </a>
+        </div>
+        <div class="grid-item" style="width: calc(25% - 20px); margin-bottom: 20px;">
+            <img src="https://img1.baidu.com/it/u=1493055198,901035877&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=800" alt=""
+                style="width: 100%;">
+            <a href="https://www.bilibili.com/bangumi/media/md28339735"
+                style="display: block; text-align: center; text-decoration: none;">
+                <p style="margin-top: 5px; font-weight: bold; white-space: nowrap;">孤独摇滚</p>
+            </a>
+        </div>
+    </div>
 </div>
-
-
 
 
 

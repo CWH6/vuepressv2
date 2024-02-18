@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-005aabbe","path":"/blogs/front/vue2/vuex.html","title":"vuex","lang":"en-US","frontmatter":{"title":"vuex","date":"2020/05/29"},"headers":[],"git":{"createdTime":1707491490000,"updatedTime":1707491490000,"contributors":[{"name":"cwh","email":"2747758546@qq.com","commits":1}]},"filePathRelative":"blogs/front/vue2/vuex.md"}');export{e as data};
