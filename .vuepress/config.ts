@@ -76,6 +76,16 @@ export default defineUserConfig({
           ],
         }
       ],
+      "/blogs/interface/":[
+        {
+          text: "接口",
+          children: [
+            {text:'pay',link:'2023'},
+            {text:'twitter',link:'twitter'},
+            {text:'other',link:'2025'},
+          ],
+        }
+      ],
       "/blogs/thread":[
         {
           text: "基础",
@@ -135,6 +145,7 @@ export default defineUserConfig({
         children: [
           { text: "线程", link: "/blogs/thread/thread.md" },
           { text: "前端", link: "/blogs/后端/2023" },
+          { text: "接口", link: "/blogs/interface/index.md" },
         ],
       },
       {
@@ -148,8 +159,8 @@ export default defineUserConfig({
       {
         text: "项目",
         children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-          { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
+          { text: "小项目", link: "/blogs/project/small.md" },
+          { text: "大项目", link: "/blogs/project/big.md" },
         ],
       },
       {

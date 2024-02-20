@@ -1,1 +1,0 @@
-import{_ as t,o,c,b as e}from"./app-8G2Ji4Zr.js";const n={},_=e("blockquote",null,[e("p",null,"记录年度小目标")],-1),s=[_];function l(r,a){return o(),c("div",null,s)}const i=t(n,[["render",l],["__file","index.html.vue"]]);export{i as default};
