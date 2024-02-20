@@ -76,6 +76,22 @@ export default defineUserConfig({
           ],
         }
       ],
+      "/blogs/thread":[
+        {
+          text: "基础",
+          children: [
+            {text:'多线程',link:'thread'},
+            {text:'线程池',link:'threadPool'},
+          ],
+        },
+        {
+          text: "进阶",
+          children: [
+            {text:'多线程',link:'thread'},
+            {text:'线程池',link:'threadPool'},
+          ],
+        }
+      ],
     },
     navbar: [
       { text: "首页", link: "/" },
@@ -93,7 +109,6 @@ export default defineUserConfig({
           { text: "springboot", link: "/docs/theme-reco/theme" },
           { text: "springcloud", link: "/blogs/后端/2023" },
           { text: "spring", link: "/blogs/后端/2023" },
-          { text: "redis", link: "/blogs/后端/2023" },
           { text: "redis", link: "/blogs/后端/2023" },
         ],
       },
@@ -116,9 +131,9 @@ export default defineUserConfig({
         text: "算法", link: "/tags/tag1/1/"
       },
       {
-        text: "面经",
+        text: "其他",
         children: [
-          { text: "后端", link: "/docs/theme-reco/theme" },
+          { text: "线程", link: "/blogs/thread/thread.md" },
           { text: "前端", link: "/blogs/后端/2023" },
         ],
       },
@@ -149,7 +164,7 @@ export default defineUserConfig({
         text: "个人",
         children: [
           { text: "个人", link: "/blogs/self/api.md" },
-          { text: "清单", link: "/blogs/self_todo_list/2023.md" },
+          { text: "清单", link: "/blogs/self_todo_list/index.md" },
         ]
       },
       {
