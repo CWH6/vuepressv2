@@ -102,6 +102,27 @@ export default defineUserConfig({
           ],
         }
       ],
+      "/blogs/policy":[
+        {
+          text: "基本",
+          children: [
+            {text:'社会保障',link:'socialSecurity'},
+            {text:'住房公积金',link:'housingFund'},
+            {text:'教育',link:'education'},
+            {text:'婚育政策',link:'marriageAndBearing'},
+            {text:'就业',link:'work'},
+            {text:'社会救助',link:'help'},
+            {text:'文化体育',link:'sport'}
+          ],
+        },
+        {
+          text: "其他",
+          children: [
+            {text:'参军',link:'army'},
+            // {text:'线程池',link:'threadPool'},
+          ],
+        }
+      ],
     },
     navbar: [
       { text: "首页", link: "/" },
@@ -168,6 +189,7 @@ export default defineUserConfig({
         children: [
           { text: "吃吃吃", link: "/blogs/food/index.md" },
           { text: "宅家看番捏", link: "/blogs/anime/index.md" },
+          { text: "政策福利", link: "/blogs/policy/index.md" },
           { text: "抽象人生", link: "/blogs/life/index.md" },
         ],
       },

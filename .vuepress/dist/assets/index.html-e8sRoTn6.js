@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4f93cbe6","path":"/blogs/policy/","title":"政策福利","lang":"en-US","frontmatter":{"title":"政策福利","date":"2024/02/21","categories":["菜单"]},"headers":[{"level":2,"title":"政策福利","slug":"政策福利","link":"#政策福利","children":[]}],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/policy/index.md"}');export{e as data};

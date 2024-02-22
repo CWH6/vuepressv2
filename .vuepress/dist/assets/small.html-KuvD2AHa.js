@@ -1,1 +1,0 @@
-import{_ as t,o as l,c as o,b as e}from"./app-oxFVE0fE.js";const s={},_=e("blockquote",null,[e("p",null,"如下: 为本人认为比较好的项目")],-1),n=e("p",null,"项目名称：",-1),c=e("p",null,"项目采用的技术栈：",-1),a=e("p",null,"项目地址：",-1),r=[_,n,c,a];function u(d,i){return l(),o("div",null,r)}const m=t(s,[["render",u],["__file","small.html.vue"]]);export{m as default};
