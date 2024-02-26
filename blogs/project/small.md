@@ -15,7 +15,7 @@ categories:
 
 ## 🪵基础框架
 
-<div style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); border: 1px solid #000000; background-color: #CCFFCC; padding: 20px; border-radius: 10px;">
+<div style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); border: 1px solid #000000; background-color: #CCFFCC; padding: 20px; border-radius: 10px;color:#080808">
 <div><strong>项目名称</strong>：<strong>【RuoYi】</strong></div>
 <div><strong>语言</strong>：JAVA </div>
 <div><strong>地址</strong>：<a href="https://gitee.com/y_project/RuoYi" style="color: blue; text-decoration: underline;">https://gitee.com/y_project/RuoYi</a></div>
@@ -42,7 +42,7 @@ categories:
 <hr style="border: 1px dashed #FFFFFF;"></div>
 </div>
 
-<div style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); border: 1px solid #000000; background-color: #CCCCFF; padding: 20px; border-radius: 10px;margin-top:50px">
+<div style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); border: 1px solid #000000; background-color: #CCCCFF; padding: 20px; border-radius: 10px;margin-top:50px;color:#080808">
 <div><strong>项目名称</strong>：<strong>【芋道源码 ruoyi-vue-pro】</strong></div>
 <div><strong>语言</strong>：JAVA </div>
 <div><strong>地址</strong>：<a href="https://gitee.com/zhijiantianya/ruoyi-vue-pro" style="color: blue; text-decoration: underline;">https://gitee.com/zhijiantianya/ruoyi-vue-pro</a></div>
@@ -58,9 +58,10 @@ categories:
 
 
 
+
 ## 🧊工具
 
-<div style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); border: 1px solid #000000; background-color: #FFFFCC; padding: 20px; border-radius: 10px;">
+<div style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); border: 1px solid #000000; background-color: #FFFFCC; padding: 20px; border-radius: 10px;color:#080808">
 <div><strong>项目名称</strong>：<strong>【hutool】</strong></div>
 <div><strong>语言</strong>：JAVA </div>    
 <div><strong>地址</strong>：<a href="https://gitee.com/dromara/hutool" style="color: blue; text-decoration: underline;">https://gitee.com/dromara/hutool</a></div>
@@ -69,9 +70,10 @@ categories:
 
 
 
+
 ## 📦其他
 
-<div style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); border: 1px solid #000000; background-color: #99FFFF; padding: 20px; border-radius: 10px;">
+<div style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); border: 1px solid #000000; background-color: #99FFFF; padding: 20px; border-radius: 10px;color:#080808">
 <div><strong>项目名称</strong>：<strong>【大数据可视化电子沙盘】</strong></div>
 <div><strong>语言</strong>：JavaScript </div>
 <div><strong>地址</strong>：<a href="https://gitee.com/kevin_chou/dataVIS" style="color: blue; text-decoration: underline;">https://gitee.com/kevin_chou/dataVIS</a></div>
