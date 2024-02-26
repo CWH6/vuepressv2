@@ -66,9 +66,9 @@ export default defineUserConfig({
           children: ["api", "plugin"],
         },
       ],
-      "/blogs/self_todo_list":[
+      "/blogs/self_todo_list/":[
         {
-          text: "年份",
+          text: "年份", link:'index.md',
           children: [
             {text:'2023',link:'2023'},
             {text:'2024',link:'2024'},
@@ -80,13 +80,13 @@ export default defineUserConfig({
         {
           text: "接口",
           children: [
-            {text:'pay',link:'2023'},
+            {text:'pay',link:'pay'},
             {text:'twitter',link:'twitter'},
             {text:'other',link:'2025'},
           ],
         }
       ],
-      "/blogs/thread":[
+      "/blogs/thread/":[
         {
           text: "基础",
           children: [
@@ -102,7 +102,7 @@ export default defineUserConfig({
           ],
         }
       ],
-      "/blogs/policy":[
+      "/blogs/policy/":[
         {
           text: "基本",
           children: [
@@ -119,6 +119,28 @@ export default defineUserConfig({
           text: "其他",
           children: [
             {text:'参军',link:'army'},
+            // {text:'线程池',link:'threadPool'},
+          ],
+        }
+      ],
+
+      "/blogs/algorithm/":[
+        {
+          text: "基本",
+          children: [
+            {text:'字符串',link:'socialSecurity'},
+            {text:'数组',link:'housingFund'},
+            {text:'矩阵',link:'sport'},
+            {text:'位运算',link:'education'},
+            {text:'链表',link:'marriageAndBearing'},
+          ],
+        },
+        {
+          text: "进阶",
+          children: [
+            {text:'树',link:'work'},
+            {text:'图',link:'help'},
+            {text:'动态规划',link:'army'},
             // {text:'线程池',link:'threadPool'},
           ],
         }
@@ -146,8 +168,10 @@ export default defineUserConfig({
       {
         text: "金融",
         children: [
-          { text: "后端", link: "/docs/theme-reco/theme" },
-          { text: "前端", link: "/blogs/后端/2023" },
+          { text: "投资与资本市场", link: "/blogs/后端/2023" },
+          { text: "金融规划与理财", link: "/docs/theme-reco/theme" },
+          { text: "公司金融", link: "/blogs/后端/2023" },
+          { text: "金融科技", link: "/blogs/后端/2023" },
         ],
       },
       {
@@ -159,20 +183,20 @@ export default defineUserConfig({
         ],
       },
       {
-        text: "算法", link: "/tags/tag1/1/"
+        text: "算法", link: "/blogs/algorithm/index.md"
       },
       {
         text: "其他",
         children: [
           { text: "线程", link: "/blogs/thread/thread.md" },
-          { text: "前端", link: "/blogs/后端/2023" },
+          { text: "流程", link: "/blogs/后端/2023" },
           { text: "接口", link: "/blogs/interface/index.md" },
         ],
       },
       {
         text: "ai",
         children: [
-          { text: "后端", link: "/docs/theme-reco/theme" },
+          { text: "模型", link: "/docs/theme-reco/theme" },
           { text: "前端", link: "/blogs/后端/2023" },
         ],
       },
@@ -180,8 +204,8 @@ export default defineUserConfig({
       {
         text: "项目",
         children: [
-          { text: "小项目", link: "/blogs/project/small.md" },
-          { text: "大项目", link: "/blogs/project/big.md" },
+          { text: "优秀开源项目", link: "/blogs/project/small.md" },
+          { text: "个人小项目", link: "/blogs/project/big.md" },
         ],
       },
       {
@@ -189,15 +213,16 @@ export default defineUserConfig({
         children: [
           { text: "吃吃吃", link: "/blogs/food/index.md" },
           { text: "宅家看番捏", link: "/blogs/anime/index.md" },
-          { text: "政策福利", link: "/blogs/policy/index.md" },
+          { text: "政策福利", link: "/blogs/policy/" },
           { text: "抽象人生", link: "/blogs/life/index.md" },
+          { text: "有趣灵魂", link: "/blogs/soul/index.md" },
         ],
       },
       {
         text: "个人",
         children: [
           { text: "个人", link: "/blogs/self/api.md" },
-          { text: "清单", link: "/blogs/self_todo_list/index.md" },
+          { text: "清单", link: "/blogs/self_todo_list/" },
         ]
       },
       {
