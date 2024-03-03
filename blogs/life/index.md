@@ -1,5 +1,6 @@
 ---
 title: 鼠生
+password: '2c6b5ac39acd59005bbd7fa05c433513'
 date: 2024/02/09
 categories:
  - 分类

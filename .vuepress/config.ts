@@ -13,8 +13,10 @@ export default defineUserConfig({
     authorAvatar: "/jojohead.png",
     docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
     docsBranch: "main",
-    docsDir: "example",
+    docsDir: "/docs",
     lastUpdatedText: "",
+    // 加密整个网站
+    // password: '2c6b5ac39acd59005bbd7fa05c433513',
     head: [
       ['link', { rel: 'icon', href: '/jojohead.png' }]
     ],
@@ -64,6 +66,19 @@ export default defineUserConfig({
         {
           text: "module two",
           children: ["api", "plugin"],
+        },
+      ],
+      "/docs/springcloudAlibaba/": [
+        {
+          text: "组件",
+          children: ["Nacos", "Ribbon","Feign","Sentinel","Seata","Gateway","SkyWalking"],
+        },
+        {
+          text: "进阶",
+          children: [
+            {text:'从0到1',link:'base'},
+            {text:'分析RuoYi-Cloud',link:'ruoYiCloud'},
+          ],
         },
       ],
       "/blogs/self_todo_list/":[
@@ -147,7 +162,7 @@ export default defineUserConfig({
       ],
     },
     navbar: [
-      { text: "首页", link: "/" },
+      { text: "首页", link: "/" ,icon:'Compass'},
       {
         text: "前端",
         children: [
@@ -155,15 +170,25 @@ export default defineUserConfig({
           { text: "Vue3", link: "/blogs/front/vue3/vuex.md" },
           { text: "ElementUI", link: "/blogs/front/vue3/vuex.md" },
         ],
+        icon:'Screen'
       },
       {
         text: "后端",
         children: [
           { text: "springboot", link: "/docs/theme-reco/theme" },
           { text: "springcloud", link: "/blogs/后端/2023" },
+          { text: "springcloudAlibaba", link: "/docs/springcloudAlibaba/Nacos.html" },
           { text: "spring", link: "/blogs/后端/2023" },
-          { text: "redis", link: "/blogs/后端/2023" },
+          { text: "cache", link: "/blogs/后端/2023" },
+          { text: "mq", link: "/blogs/后端/2023" },
+          { text: "db", link: "/blogs/后端/2023" },
+          { text: "日志", link: "/blogs/后端/2023" },
+          { text: "搜索引擎", link: "/blogs/后端/2023" },
+          { text: "任务调度", link: "/blogs/后端/2023" },
+          { text: "其他工具", link: "/blogs/后端/2023" },
+          { text: "持久层框架", link: "/blogs/后端/2023" },
         ],
+        icon:'BareMetalServer'
       },
       {
         text: "金融",
@@ -173,6 +198,7 @@ export default defineUserConfig({
           { text: "公司金融", link: "/blogs/后端/2023" },
           { text: "金融科技", link: "/blogs/后端/2023" },
         ],
+        icon:'ConnectionTwoWay'
       },
       {
         text: "web3",
@@ -181,9 +207,10 @@ export default defineUserConfig({
           { text: "Solidity", link: "/blogs/后端/2023" },
           { text: "空投", link: "/blogs/后端/2023" },
         ],
+        icon:'Webhook'
       },
       {
-        text: "算法", link: "/blogs/algorithm/index.md"
+        text: "算法", link: "/blogs/algorithm/index.md",icon:'CalculationAlt'
       },
       {
         text: "其他",
@@ -191,22 +218,27 @@ export default defineUserConfig({
           { text: "线程", link: "/blogs/thread/thread.md" },
           { text: "流程", link: "/blogs/后端/2023" },
           { text: "接口", link: "/blogs/interface/index.md" },
+          { text: "美化", link: "/blogs/thread/thread.md" },
+          { text: "部署", link: "/blogs/thread/thread.md" },
         ],
+        icon:'WarningOther'
       },
       {
         text: "ai",
         children: [
           { text: "模型", link: "/docs/theme-reco/theme" },
-          { text: "前端", link: "/blogs/后端/2023" },
+          { text: "资源", link: "/blogs/后端/2023" },
         ],
+        icon:'EdgeDevice'
       },
-      { text: "标签", link: "/tags/tag1/1/" },
+      { text: "标签", link: "/tags/tag1/1/", icon:'Tag'},
       {
         text: "项目",
         children: [
           { text: "优秀开源项目", link: "/blogs/project/small.md" },
           { text: "个人小项目", link: "/blogs/project/big.md" },
         ],
+        icon:'ContainerRegistry'
       },
       {
         text: "生活",
@@ -217,6 +249,7 @@ export default defineUserConfig({
           { text: "抽象人生", link: "/blogs/life/index.md" },
           { text: "有趣灵魂", link: "/blogs/soul/index.md" },
         ],
+        icon:'SailboatCoastal'
       },
       {
         text: "个人",
@@ -224,6 +257,8 @@ export default defineUserConfig({
           { text: "个人", link: "/blogs/self/api.md" },
           { text: "清单", link: "/blogs/self_todo_list/" },
         ]
+        ,
+        icon:'Monster'
       },
       {
         text: "羁绊",
@@ -231,6 +266,7 @@ export default defineUserConfig({
           { text: "盆友嘞", link: "/blogs/friend/index.md" },
           { text: "人生观", link: "/blogs/other/guide" },
         ],
+        icon:'UserMultiple'
       },
     ],
     bulletin: {
