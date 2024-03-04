@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-570c81c8","path":"/docs/springcloudAlibaba/base.html","title":"SkyWalking","lang":"en-US","frontmatter":{"title":"SkyWalking","date":"2020/05/27"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/springcloudAlibaba/base.md"}');export{a as data};

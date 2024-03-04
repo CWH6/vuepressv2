@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7041df1b","path":"/docs/db/kingbase.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/db/kingbase.md"}');export{e as data};

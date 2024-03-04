@@ -160,6 +160,46 @@ export default defineUserConfig({
           ],
         }
       ],
+      "/docs/db/":[
+        {
+          text: "mysql",
+          children: [
+            {text:'安装',link:'mysql_install'},
+            {text:'卸载',link:'mysql_uninstall'},
+            {text:'使用',link:'mysql_use'},
+            {text:'集群',link:'mysql_colony'},
+          ],
+        },
+        {
+          text: "达梦",
+          children: [
+            {text:'安装',link:'dm_install'},
+            {text:'卸载',link:'dm_uninstall'},
+            {text:'使用',link:'dm_use'},
+            // {text:'线程池',link:'threadPool'},
+          ],
+        },
+        {
+          text: "人大金仓",
+          children: [
+            {text:'介绍',link:'kingbase_install'},
+            {text:'安装',link:'kingbase_install'},
+            {text:'卸载',link:'kingbase_uninstall'},
+            {text:'迁移',link:'kingbase_move'},
+            {text:'语法',link:'kingbase_use'},
+            // {text:'线程池',link:'threadPool'},
+          ],
+        },
+        {
+          text: "瀚高",
+          children: [
+            {text:'安装',link:'hg_install'},
+            {text:'卸载',link:'hg_uninstall'},
+            {text:'使用',link:'hg_use'},
+            // {text:'线程池',link:'threadPool'},
+          ],
+        },
+      ],
     },
     navbar: [
       { text: "首页", link: "/" ,icon:'Compass'},
@@ -181,7 +221,7 @@ export default defineUserConfig({
           { text: "spring", link: "/blogs/后端/2023" },
           { text: "cache", link: "/blogs/后端/2023" },
           { text: "mq", link: "/blogs/后端/2023" },
-          { text: "db", link: "/blogs/后端/2023" },
+          { text: "db", link: "/docs/db/mysql_install.md" },
           { text: "日志", link: "/blogs/后端/2023" },
           { text: "搜索引擎", link: "/blogs/后端/2023" },
           { text: "任务调度", link: "/blogs/后端/2023" },
@@ -218,8 +258,8 @@ export default defineUserConfig({
           { text: "线程", link: "/blogs/thread/thread.md" },
           { text: "流程", link: "/blogs/后端/2023" },
           { text: "接口", link: "/blogs/interface/index.md" },
-          { text: "美化", link: "/blogs/thread/thread.md" },
           { text: "部署", link: "/blogs/thread/thread.md" },
+          { text: "美化", link: "/blogs/blog/vupress_beautify.md" },
         ],
         icon:'WarningOther'
       },
