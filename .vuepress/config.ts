@@ -138,7 +138,54 @@ export default defineUserConfig({
           ],
         }
       ],
-
+      "/blogs/ops/":[
+        {
+          text: "linux",
+          children: [
+            {text:'基本命令',link:'linux_base.md'},
+          ],
+        },
+        {
+          text: "nginx",
+          children: [
+            {text:'安装',link:'nginx_install.md'},
+            {text:'配置',link:'nginx_set.md'},
+            {text:'部署',link:'nginx_ops.md'},
+          ],
+        },
+        {
+          text: "docker",
+          children: [
+            {text:'基本',link:'docker_base.md'},
+            {text:'安装',link:'docker_install.md'},
+            {text:'使用',link:'docker_use.md'},
+            {text:'tomcat',link:'docker_tomcat.md'},
+            {text:'nginx',link:'docker_nginx.md'},
+            {text:'redis',link:'docker_redis.md'},
+            {text:'mysql',link:'docker_mysql.md'},
+            {text:'es',link:'docker_es.md'},
+            {text:'mq',link:'docker_mq.md'},
+            {text:'springboot',link:'docker_springboot.md'},
+            {text:'vue',link:'docker_vue.md'},
+            {text:'nginx镜像部署vue',link:'docker_nginx_vue.md'},
+            {text:'docker compose',link:'docker_compose.md'},
+          ],
+        },
+        {
+          text: "k8s",
+          children: [
+            {text:'基本&安装',link:'k8s_base.md'},
+            {text:'可视化控制台',link:'k8s_kubeSphere.md'},
+          ],
+        },
+        {
+          text: "云服务",
+          children: [
+            {text:'测试指南',link:'ecs_test.md'},
+            {text:'云校部署单体&流水线',link:'ecs_springboot_line.md'},
+          ],
+        },
+      ],
       "/blogs/algorithm/":[
         {
           text: "基本",
@@ -258,7 +305,7 @@ export default defineUserConfig({
           { text: "线程", link: "/blogs/thread/thread.md" },
           { text: "流程", link: "/blogs/后端/2023" },
           { text: "接口", link: "/blogs/interface/index.md" },
-          { text: "部署", link: "/blogs/thread/thread.md" },
+          { text: "部署", link: "/blogs/ops/linux.md" },
           { text: "美化", link: "/blogs/blog/vupress_beautify.md" },
         ],
         icon:'WarningOther'

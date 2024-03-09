@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-3280f718","path":"/docs/db/kingbase_uninstall.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/db/kingbase_uninstall.md"}');export{t as data};

@@ -1,0 +1,1 @@
+import{_ as e,o as n,c as t,a as _}from"./app-c2b5pMCG.js";const s={},c=_("p",null,"linux.md",-1),l=[c];function o(a,i){return n(),t("div",null,l)}const d=e(s,[["render",o],["__file","nginx_install.html.vue"]]);export{d as default};

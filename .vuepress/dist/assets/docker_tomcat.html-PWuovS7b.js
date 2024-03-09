@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7f94232a","path":"/blogs/ops/docker_tomcat.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/ops/docker_tomcat.md"}');export{t as data};
