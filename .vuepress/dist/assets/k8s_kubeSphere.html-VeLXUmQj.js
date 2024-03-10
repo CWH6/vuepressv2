@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-71721c32","path":"/blogs/ops/k8s_kubeSphere.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1709992691000,"updatedTime":1709992691000,"contributors":[{"name":"cwh","email":"2747758546@qq.com","commits":1}]},"filePathRelative":"blogs/ops/k8s_kubeSphere.md"}');export{e as data};

@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-02507c89","path":"/blogs/ops/docker_redis.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/ops/docker_redis.md"}');export{e as data};

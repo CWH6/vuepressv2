@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-22fdb2fd","path":"/blogs/ops/docker_base.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/ops/docker_base.md"}');export{e as data};

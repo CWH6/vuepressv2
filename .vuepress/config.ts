@@ -247,6 +247,46 @@ export default defineUserConfig({
           ],
         },
       ],
+      "/blogs/bpm/":[
+        {
+          text: "activity",
+          children: [
+            {text:'基本',link:'activity_base'},
+            {text:'使用',link:'activity_use'},
+          ],
+        },
+        {
+          text: "flowable",
+          children: [
+            {text:'基本',link:'flowable_base'},
+            {text:'使用',link:'flowable_use'},
+          ],
+        },
+      ],
+      "/blogs/ai/":[
+        {
+          text: "chatgpt",
+          children: [
+            {text:'基本',link:'chatgpt_base'},
+            {text:'使用',link:'chatgpt_use'},
+            {text:'绕开过滤',link:'chatgpt_unlock'},
+          ],
+        },
+        {
+          text: "midjourney",
+          children: [
+            {text:'基本',link:'midjourney_base'},
+            {text:'使用',link:'midjourney_use'},
+          ],
+        },
+        {
+          text: "huggingFace",
+          children: [
+            {text:'基本',link:'huggingFace_base'},
+            {text:'使用',link:'huggingFace_use'},
+          ],
+        },
+      ]
     },
     navbar: [
       { text: "首页", link: "/" ,icon:'Compass'},
@@ -303,18 +343,21 @@ export default defineUserConfig({
         text: "其他",
         children: [
           { text: "线程", link: "/blogs/thread/thread.md" },
-          { text: "流程", link: "/blogs/后端/2023" },
+          { text: "流程", link: "/blogs/bpm/activity_base.md" },
           { text: "接口", link: "/blogs/interface/index.md" },
           { text: "部署", link: "/blogs/ops/linux.md" },
           { text: "美化", link: "/blogs/blog/vupress_beautify.md" },
+          { text: "安全", link: "/blogs/blog/vupress_beautify.md" },
+          { text: "测试", link: "/blogs/blog/vupress_beautify.md" },
+          { text: "设计", link: "/blogs/blog/vupress_beautify.md" },
         ],
         icon:'WarningOther'
       },
       {
         text: "ai",
         children: [
-          { text: "模型", link: "/docs/theme-reco/theme" },
-          { text: "资源", link: "/blogs/后端/2023" },
+          { text: "模型", link: "/blogs/ai/huggingFace_use.md" },
+          { text: "资源", link: "/blogs/ai_source/index.md" },
         ],
         icon:'EdgeDevice'
       },

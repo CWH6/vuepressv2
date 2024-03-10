@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as n,a as _}from"./app-pI-r5Vp9.js";const s={},c=_("p",null,"linux.md",-1),o=[c];function a(l,r){return t(),n("div",null,o)}const d=e(s,[["render",a],["__file","nginx_set.html.vue"]]);export{d as default};
