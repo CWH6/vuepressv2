@@ -286,7 +286,61 @@ export default defineUserConfig({
             {text:'使用',link:'huggingFace_use'},
           ],
         },
-      ]
+      ],
+      "/blogs/web3/blockchain/":[
+        {
+          text: "区块链",
+          children: [
+            {text:'基本',link:'blockchain_base'},
+          ],
+        },
+        {
+          text: "其他",
+          children: [
+            {text:'以太坊钱包',link:'chatgpt_base'},
+            {text:'资料',link:'chatgpt_use'},
+  
+          ],
+        },
+      ],
+      "/blogs/web3/solidity/":[
+        {
+          text: "基础",
+          children: [
+            {text:'语言&运行',link:'solidity_base'},
+            {text:'合约部署',link:'solidity_base'},
+            {text:'FunMe合约',link:'solidity_base'},
+            {text:'基本',link:'solidity_base'},
+            {text:'导入导出',link:'solidity_base'},
+          ],
+        },
+        {
+          text: "高级",
+          children: [
+            {text:'暂无',link:'chatgpt_base'},
+          ],
+        },
+      ],
+      "/blogs/finance/invest_market/":[
+        {
+          text: "投资",
+          children: [
+            {text:'基本',link:'solidity_base'},
+            {text:'股票投资',link:'solidity_base'},
+            {text:'债券投资',link:'solidity_base'},
+            {text:'房地产投资',link:'solidity_base'},
+            {text:'创业投资',link:'solidity_base'},
+            {text:'商品投资',link:'solidity_base'},
+          ],
+        },
+        {
+          text: "资本市场",
+          children: [
+            {text:'股票市场',link:'solidity_base'},
+            {text:'债券市场',link:'solidity_base'},
+          ],
+        },
+      ],
     },
     navbar: [
       { text: "首页", link: "/" ,icon:'Compass'},
@@ -320,8 +374,8 @@ export default defineUserConfig({
       {
         text: "金融",
         children: [
-          { text: "投资与资本市场", link: "/blogs/后端/2023" },
-          { text: "金融规划与理财", link: "/docs/theme-reco/theme" },
+          { text: "投资与资本市场", link: "/blogs/finance/invest_market/invest_base.md" },
+          { text: "金融规划与理财", link: "/blogs/finance/invest_market/invest_base.md" },
           { text: "公司金融", link: "/blogs/后端/2023" },
           { text: "金融科技", link: "/blogs/后端/2023" },
         ],
@@ -330,9 +384,9 @@ export default defineUserConfig({
       {
         text: "web3",
         children: [
-          { text: "区块链", link: "/docs/theme-reco/theme" },
-          { text: "Solidity", link: "/blogs/后端/2023" },
-          { text: "空投", link: "/blogs/后端/2023" },
+          { text: "区块链", link: "/blogs/web3/blockchain/blockchain_base.md" },
+          { text: "Solidity", link: "/blogs/web3/solidity/solidity_base.md" },
+          { text: "空投", link: "/blogs/web3/airdrop.md" },
         ],
         icon:'Webhook'
       },

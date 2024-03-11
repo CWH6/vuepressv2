@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-4e12f84e","path":"/blogs/ai/chatgpt_use.html","title":"chatcpt使用","lang":"en-US","frontmatter":{"title":"chatcpt使用","date":"2020/05/27"},"headers":[{"level":2,"title":"版本","slug":"版本","link":"#版本","children":[]}],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/ai/chatgpt_use.md"}');export{t as data};
