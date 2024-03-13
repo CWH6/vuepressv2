@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-328636cc","path":"/blogs/finance/invest_market/market_base.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/finance/invest_market/market_base.md"}');export{e as data};

@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-53d8dbbf","path":"/blogs/web3/solidity/solidity_base.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/web3/solidity/solidity_base.md"}');export{t as data};

@@ -195,15 +195,39 @@ export default defineUserConfig({
             {text:'矩阵',link:'sport'},
             {text:'位运算',link:'education'},
             {text:'链表',link:'marriageAndBearing'},
+            {text:'二叉树',link:'marriageAndBearing'},
+            {text:'哈希表',link:'marriageAndBearing'},
+            {text:'栈',link:'marriageAndBearing'},
+            {text:'队列',link:'marriageAndBearing'},
+            {text:'排序',link:'marriageAndBearing'},
+            {text:'滚动数组',link:'work'},
+            {text:'滑动窗口',link:'work'},
           ],
         },
         {
           text: "进阶",
           children: [
-            {text:'树',link:'work'},
-            {text:'图',link:'help'},
+            {text:'图',link:'socialSecurity'},
+            {text:'堆',link:'socialSecurity'},
+            {text:'二叉搜索树',link:'housingFund'},
+            {text:'矩阵',link:'sport'},
+            {text:'二分查找',link:'marriageAndBearing'},
+            {text:'递归',link:'marriageAndBearing'},
+            {text:'深度优先搜索',link:'help'},
+            {text:'广度优先搜索',link:'help'},
+            {text:'回溯',link:'work'},
+            {text:'并查集',link:'army'},
+          ],
+        },
+        {
+          text: "高阶",
+          children: [
+            {text:'贪心',link:'army'},
+            {text:'分治',link:'army'},
+            {text:'矩阵快速幂',link:'army'},
+            {text:'单调栈',link:'army'},
+            {text:'前缀和',link:'army'},
             {text:'动态规划',link:'army'},
-            // {text:'线程池',link:'threadPool'},
           ],
         }
       ],
@@ -341,6 +365,20 @@ export default defineUserConfig({
           ],
         },
       ],
+      "/blogs/eight_part/":[
+        {
+          text: "java",
+          children: [
+            {text:'基本',link:'java'},
+          ],
+        },
+        {
+          text: "springboot",
+          children: [
+            {text:'基本',link:'springboot'},
+          ],
+        },
+      ]
     },
     navbar: [
       { text: "首页", link: "/" ,icon:'Compass'},
@@ -403,7 +441,7 @@ export default defineUserConfig({
           { text: "美化", link: "/blogs/blog/vupress_beautify.md" },
           { text: "安全", link: "/blogs/blog/vupress_beautify.md" },
           { text: "测试", link: "/blogs/blog/vupress_beautify.md" },
-          { text: "设计", link: "/blogs/blog/vupress_beautify.md" },
+          { text: "八股", link: "/blogs/eight_part/springboot.md" },
         ],
         icon:'WarningOther'
       },

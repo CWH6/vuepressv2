@@ -1,1 +1,0 @@
-import{_ as e,o as n,c,a as o}from"./app-3_tfkmjO.js";const t={},_=o("p",null,"linux.md",-1),s=[_];function r(a,l){return n(),c("div",null,s)}const i=e(t,[["render",r],["__file","docker_nginx.html.vue"]]);export{i as default};
