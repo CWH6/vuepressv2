@@ -1,1 +1,0 @@
-import{_ as e,o as n,c as o,a as t}from"./app-pVQ1Hrls.js";const _={},s=t("p",null,"linux.md",-1),c=[s];function a(l,r){return n(),o("div",null,c)}const d=e(_,[["render",a],["__file","nginx_ops.html.vue"]]);export{d as default};

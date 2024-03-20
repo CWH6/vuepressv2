@@ -26,18 +26,41 @@ export default defineUserConfig({
         {
           text: "基础语法",
           children: [
-            {text:'响应式数据绑定',link:'vuex'},
-            {text:'指令系统',link:'b'},
-            {text:'生命周期',link:'lifeCycle'},
+            {text:'Vue实例',link:'vue_instance'},
+            {text:'生命周期',link:'lifecycle'},
+            {text:'模板语法',link:'template_syntax'},
+            {text:'计算属性和侦听器',link:'computed_properties_and_watchers'},
+            {text:'Class与Seyle绑定',link:'class_and_style_binding'},
+            {text:'条件渲染',link:'conditional_rendering'},
+            {text:'列表渲染',link:'list_rendering'},
+            {text:'事件处理',link:'event_handling'},
+            {text:'表单绑定',link:'form_binding'},
           ],
         },
         {
-          text: "进阶版本",
-          children: ["home", "theme"],
+          text: "组件",
+          children: [
+            {text:'组件注册',link:'component_registration'},
+            {text:'Prop',link:'prop'},
+            {text:'自定义事件',link:'custom_events'},
+            {text:'动态组件&异步组件',link:'dynamic_components_and_ async_components'},
+            {text:'处理边界情况',link:'handling_edge_cases'},
+          ],
         },
         {
-          text: "项目实践",
-          children: ["home", "theme"],
+          text: "规模化",
+          children: [
+            {text:'路由',link:'routing'},
+            {text:'Vuex',link:'vuex'},
+            {text:'安全',link:'safe'},
+          ],
+        },
+        {
+          text: "工具",
+          children: [
+            {text:'VueCLI',link:'VueCLI'},
+            {text:'VueRouter',link:'VueRouter'},
+          ],
         },
       ],
       "/blogs/front/vue3":[

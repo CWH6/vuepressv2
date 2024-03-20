@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-161196e4","path":"/blogs/front/vue2/handling_edge_cases.html","title":"响应式数据绑定","lang":"en-US","frontmatter":{"title":"响应式数据绑定","date":"2020/05/30"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/front/vue2/handling_edge_cases.md"}');export{e as data};

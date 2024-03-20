@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-fe2ef12e","path":"/blogs/front/vue2/event_handling.html","title":"响应式数据绑定","lang":"en-US","frontmatter":{"title":"响应式数据绑定","date":"2020/05/30"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/front/vue2/event_handling.md"}');export{e as data};

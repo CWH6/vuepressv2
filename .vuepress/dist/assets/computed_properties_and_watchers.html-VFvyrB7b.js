@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as _}from"./app-_OZj9BKu.js";const c={};function r(o,s){return t(),_("div")}const n=e(c,[["render",r],["__file","computed_properties_and_watchers.html.vue"]]);export{n as default};

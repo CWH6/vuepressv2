@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,a as o}from"./app-pVQ1Hrls.js";const _={},c=o("p",null,"This is theme.",-1),l=[c];function a(n,r){return s(),t("div",null,l)}const i=e(_,[["render",a],["__file","flowable_use.html.vue"]]);export{i as default};
