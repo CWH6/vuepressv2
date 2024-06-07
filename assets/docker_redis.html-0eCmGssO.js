@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-02507c89","path":"/blogs/ops/docker_redis.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1717753357000,"updatedTime":1717753357000,"contributors":[{"name":"CWH6","email":"65063260+CWH6@users.noreply.github.com","commits":1}]},"filePathRelative":"blogs/ops/docker_redis.md"}');export{e as data};
