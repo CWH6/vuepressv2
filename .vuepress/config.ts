@@ -401,6 +401,40 @@ export default defineUserConfig({
             {text:'基本',link:'springboot'},
           ],
         },
+      ],
+
+      "/blogs/nosql/":[
+        {
+          text: "redis",
+          children: [
+            {text:'数据结构与命令',link:'java'},
+            {text:'AOF和PDB持久化',link:'java'},
+            {text:'redis工具介绍',link:'java'},
+            {text:'springboot整合jedis',link:'java'},
+            {text:'springboot整合redisTemplate',link:'java'},
+            {text:'缓存预热',link:'java'},
+            {text:'缓存雪崩',link:'java'},
+            {text:'缓存击穿',link:'java'},
+            {text:'缓存穿透',link:'java'},
+            {text:'多级缓存',link:'java'},
+            {text:'性能指标监控',link:'java'},
+            {text:'布隆过滤器',link:'java'},
+            {text:'Redis分布式锁',link:'java'},
+            {text:'性能指标监控',link:'java'},
+            {text:'集群&主从&哨兵',link:'java'},
+            {text:'集群',link:'java'},
+            {text:'大佬设计',link:'java'},
+          ],
+        },
+        {
+          text: "mongodb",
+          children: [
+            {text:'安装',link:'mongodb_install'},
+            {text:'操作',link:'mongodb_opera'},
+            {text:'springboot整合mongodb',link:'springboot'},
+            {text:'基本',link:'springboot'},
+          ],
+        },
       ]
     },
     navbar: [
@@ -421,7 +455,7 @@ export default defineUserConfig({
           { text: "springcloud", link: "/blogs/后端/2023" },
           { text: "springcloudAlibaba", link: "/docs/springcloudAlibaba/Nacos.html" },
           { text: "spring", link: "/blogs/后端/2023" },
-          { text: "cache", link: "/blogs/后端/2023" },
+          { text: "nosql", link: "/blogs/nosql/redis.md" },
           { text: "mq", link: "/blogs/后端/2023" },
           { text: "db", link: "/docs/db/mysql_install.md" },
           { text: "日志", link: "/blogs/后端/2023" },
