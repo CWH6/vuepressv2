@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,a as o}from"./app-A-PqZFtg.js";const _={},a=o("p",null,"This is theme.",-1),c=[a];function l(n,r){return s(),t("div",null,c)}const i=e(_,[["render",l],["__file","flowable_base.html.vue"]]);export{i as default};
